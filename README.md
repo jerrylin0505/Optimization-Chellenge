@@ -1,14 +1,14 @@
 # Come and take it! Optimization Challenge
 
 ## Description
-**Come and take it!** was the battle cry during the American revolution in 1778 at Fort Morris, Georgia, and again in 1835 at the Battle of Gonzales during the Texas Revolution. So it seems we have a history of fighting the status quo. When data was gathered for the usstates.csv file, the US population was approximately 275
+***Come and take it!*** was the battle cry during the American revolution in 1778 at Fort Morris, Georgia, and again in 1835 at the Battle of Gonzales during the Texas Revolution. So it seems we have a history of fighting the status quo. When data was gathered for the usstates.csv file, the US population was approximately 275
 million people (it is currently believed to be over 300 million). Continuing in the tradition of early Americans, from time to time various US states (notably Texas and California) threaten to secede from the Union and become their own country. In this programming challenge, you are a data scientist for the US government and you have been asked to explore some rudimentary secession scenarios and what those scenarios might mean for the US Federal government.
 
 ## Objectives
 After participating in this activity, you will be able to:
- Review and solve a `real life` data analysis scenario that has no one right answer.
- Explore and implement advanced analysis techniques.
- Apply the knowledge and skills you’ve gained during the first 5 labs in a holistic manner.
+* Review and solve a `real life` data analysis scenario that has no one right answer.
+* Explore and implement advanced analysis techniques.
+* Apply the knowledge and skills you’ve gained during the first 5 labs in a holistic manner.
 
 ## Deliverables
 Write the 2 functions described below and commit each function to your repository in a .py file of the same name. Each time you commit a new version of a file, it will be evaluated /timed and the leader board will be updated.
@@ -34,19 +34,19 @@ The most populous US state is California (CA), so it makes sense that the larges
 and Arizona, which share a border, and so on.
 
 Here are some additional example function calls:
-In [1]: new_nation_with_pop(34, ’usstates.csv’, ’border_data.csv’)
-Out[1]: [(’CA’,)]
-In [2]: new_nation_with_pop(40, ’usstates.csv’, ’border_data.csv’)
-Out[2]:
-[(’WA’, ’CA’, ’OR’),
-(’NM’, ’CA’, ’AZ’),
-(’NY’, ’PA’, ’OH’),
-(’NV’, ’CA’, ’AZ’),
-(’CO’, ’CA’, ’AZ’),
-(’CA’, ’AZ’, ’UT’),
-(’CA’, ’AZ’, ’OR’)]
-In [3]: new_nation_with_pop(50, ’usstates.csv’, ’border_data.csv’)
-Out[3]: [(’NJ’, ’NY’, ’PA’, ’OH’), (’NM’, ’TX’, ’CA’, ’AZ’), (’NY’, ’PA’, ’OH’, ’MI’)]
+In [1]: new_nation_with_pop(34, ’usstates.csv’, ’border_data.csv’) \
+Out[1]: [(’CA’,)] \
+In [2]: new_nation_with_pop(40, ’usstates.csv’, ’border_data.csv’) \
+Out[2]: \
+[(’WA’, ’CA’, ’OR’), \
+(’NM’, ’CA’, ’AZ’), \
+(’NY’, ’PA’, ’OH’), \
+(’NV’, ’CA’, ’AZ’), \
+(’CO’, ’CA’, ’AZ’), \
+(’CA’, ’AZ’, ’UT’), \
+(’CA’, ’AZ’, ’OR’)] \
+In [3]: new_nation_with_pop(50, ’usstates.csv’, ’border_data.csv’) \
+Out[3]: [(’NJ’, ’NY’, ’PA’, ’OH’), (’NM’, ’TX’, ’CA’, ’AZ’), (’NY’, ’PA’, ’OH’, ’MI’)] \
 
 California has over 30 million people, so the minimum number of states required for a nation of at
 least 30 million is just 1. To get at least 40 million people you need a combination of 3 contiguous
