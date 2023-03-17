@@ -1,4 +1,8 @@
-# Come and take it! Optimization Challenge
+# Come and take it - Optimization Challenge
+
+## Final Result: 1st place winner!
+![image](https://user-images.githubusercontent.com/31921089/226019835-0f79d8e9-3d6b-4fb6-a69b-7c25fe231c42.png)
+
 
 ## Description
 ***Come and take it!*** was the battle cry during the American revolution in 1778 at Fort Morris, Georgia, and again in 1835 at the Battle of Gonzales during the Texas Revolution. So it seems we have a history of fighting the status quo. When data was gathered for the usstates.csv file, the US population was approximately 275
