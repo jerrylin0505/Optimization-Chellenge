@@ -17,7 +17,7 @@ Write the 2 functions described below and commit each function to your repositor
 The file border_data.csv contains information on which US states share borders and the length of each border. Use this file in combination with the usstates.csv file to write two functions:
 1. `new_nation_n_states`: This function accepts 1 argument (n) and returns the most populous "new nation" carved out from n US states. The states must be contiguous; that is they must each share a border with another state in the new nation.
 2. `new_nation_with_pop`: This function accepts 1 argument (a population, in millions) and returns a list of all possible new nations, consisting of a minimum number of states, with at least that many people. Once again the states in each new nation must be contiguous!
-3. 
+
 Place each function in its own .py file of the same name. For example, the new_nation_n_states function should go in the new_nation_n_states.py file. Here are some example function calls:
 
 In [1]: new_nation_n_states(1, ’usstates.csv’, ’border_data.csv’)\
@@ -58,6 +58,7 @@ a combination of 4 contiguous states, and there are 3 options that achieve this 
 Because this is a computationally intense problem, your solution will be given a maximum time window (about 5 seconds) for evaluation. Your place on the leader board will be calculated using the following metrics (in this order):
 1. Highest n (or pop): A function that calculates for n = 6 in 5 seconds or less will place higher than a function that can only calculate for n = 4.
 2. Time: A function that calculates n = 6 in 4.536 seconds will place higher than a function that calculates the same n in 4.846 seconds.
+
 In addition, a couple of scenarios will result in not appearing on the leader board or disappearing from a previously held position:
 1. Invalid Solution: For example, the states you return do not border each other or the population of those states does not add up correctly.
 2. Suboptimal Solution: You hold the top spot on the leaderboard with n = 4 and a valid solution with a population of 70 million. Another team then calculates a solution for n = 4 with a population of only 61,187,000.
