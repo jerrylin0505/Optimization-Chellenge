@@ -57,7 +57,6 @@ def new_nation_n_states(n=1, region_filename='usstates.csv', border_filename='bo
         # Adjust the dataframe into the next iteration format
         start_state['pop'] = start_state['pop_l'] + start_state['pop_r']
 
-        # TODO: not the right logic to drop: what if sum of pop of different states are same?
         start_state = (start_state.drop_duplicates(subset='pop')
                                   .drop(columns=['target', 'pop_l', 'pop_r'])
                                   .rename(columns={'abbrev': f'ST{i}', 'neighbor': 'abbrev'})
