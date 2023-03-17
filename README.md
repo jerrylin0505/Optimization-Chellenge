@@ -1,4 +1,4 @@
-# Come and take it - Optimization Challenge
+# Optimization Challenge - `Come and take it`
 
 ## Final Result: 1st place winner!
 ![image](https://user-images.githubusercontent.com/31921089/226019835-0f79d8e9-3d6b-4fb6-a69b-7c25fe231c42.png)
