@@ -6,7 +6,7 @@ million people (it is currently believed to be over 300 million). Continuing in 
 
 ## Objectives
 After participating in this activity, you will be able to:
-* Review and solve a `real life` data analysis scenario that has no one right answer.
+* Review and solve a **real life** data analysis scenario that has no one right answer.
 * Explore and implement advanced analysis techniques.
 * Apply the knowledge and skills you’ve gained during the first 5 labs in a holistic manner.
 
@@ -20,13 +20,13 @@ The file border_data.csv contains information on which US states share borders a
 3. 
 Place each function in its own .py file of the same name. For example, the new_nation_n_states function should go in the new_nation_n_states.py file. Here are some example function calls:
 
-In [1]: new_nation_n_states(1, ’usstates.csv’, ’border_data.csv’)
-Out[1]: ((’CA’,), 34888000)
-In [2]: new_nation_n_states(2, ’usstates.csv’, ’border_data.csv’)
-Out[2]: ((’CA’, ’AZ’), 39325000)
-In [3]: new_nation_n_states(3, ’usstates.csv’, ’border_data.csv’)
-Out[3]: ((’WA’, ’CA’, ’OR’), 44362000)
-In [4]: new_nation_n_states(4, ’usstates.csv’, ’border_data.csv’)
+In [1]: new_nation_n_states(1, ’usstates.csv’, ’border_data.csv’)\
+Out[1]: ((’CA’,), 34888000)\
+In [2]: new_nation_n_states(2, ’usstates.csv’, ’border_data.csv’)\
+Out[2]: ((’CA’, ’AZ’), 39325000)\
+In [3]: new_nation_n_states(3, ’usstates.csv’, ’border_data.csv’)\
+Out[3]: ((’WA’, ’CA’, ’OR’), 44362000)\
+In [4]: new_nation_n_states(4, ’usstates.csv’, ’border_data.csv’)\
 Out[4]: ((’NM’, ’TX’, ’CA’, ’AZ’), 61187000)
 
 The most populous US state is California (CA), so it makes sense that the largest nation carved from
@@ -34,6 +34,7 @@ The most populous US state is California (CA), so it makes sense that the larges
 and Arizona, which share a border, and so on.
 
 Here are some additional example function calls:
+
 In [1]: new_nation_with_pop(34, ’usstates.csv’, ’border_data.csv’) \
 Out[1]: [(’CA’,)] \
 In [2]: new_nation_with_pop(40, ’usstates.csv’, ’border_data.csv’) \
@@ -46,7 +47,7 @@ Out[2]: \
 (’CA’, ’AZ’, ’UT’), \
 (’CA’, ’AZ’, ’OR’)] \
 In [3]: new_nation_with_pop(50, ’usstates.csv’, ’border_data.csv’) \
-Out[3]: [(’NJ’, ’NY’, ’PA’, ’OH’), (’NM’, ’TX’, ’CA’, ’AZ’), (’NY’, ’PA’, ’OH’, ’MI’)] \
+Out[3]: [(’NJ’, ’NY’, ’PA’, ’OH’), (’NM’, ’TX’, ’CA’, ’AZ’), (’NY’, ’PA’, ’OH’, ’MI’)]
 
 California has over 30 million people, so the minimum number of states required for a nation of at
 least 30 million is just 1. To get at least 40 million people you need a combination of 3 contiguous
